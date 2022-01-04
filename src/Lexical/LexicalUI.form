@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Lexical.LexicalUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="800" height="800"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0"/>
+      <alignmentY value="1.0"/>
+      <autoscrolls value="false"/>
+      <font name="B Ferdosi" size="16"/>
+      <inheritsPopupMenu value="true"/>
+      <minimumSize width="800" height="600"/>
+      <preferredSize width="207" height="52"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none" title-justification="2" title-position="2"/>
+    <children>
+      <component id="6de39" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <focusCycleRoot value="true"/>
+          <font name="IRANSans" size="25" style="1"/>
+          <text value="کد خود را انتخاب کنید"/>
+        </properties>
+      </component>
+      <component id="21060" class="javax.swing.JButton" binding="BTNsubmitCode">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="IRANSans" size="17" style="1"/>
+          <text value="Browse..."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
